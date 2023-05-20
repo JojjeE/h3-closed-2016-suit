@@ -1,0 +1,23 @@
+{
+    "tempHash": "00097AA87B144150",
+    "tbluHash": "00E738E7CF7A35E1",
+    "patch": [
+        {
+            "SubEntityOperation": [
+                "275cabb54235420f",
+                {
+                    "SetFactory": "00E14CF995B6645F"
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "275cabb54235420f",
+                {
+                    "SetBlueprint": "003FEDDA960A035D"
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}

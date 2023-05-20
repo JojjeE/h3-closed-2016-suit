@@ -1,0 +1,14 @@
+{
+	"41b717cb-eded-44eb-a005-f89c8a83d25e": {
+		"ID_": "41b717cb-eded-44eb-a005-f89c8a83d25e",
+		"CommonName": "CHAR_Global_Hero_Closed_2016_Suit_Gloves_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_2016suit_closed_gloves.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES"
+	}
+}

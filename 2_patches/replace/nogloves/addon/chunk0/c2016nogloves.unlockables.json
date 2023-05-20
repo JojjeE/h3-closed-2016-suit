@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES": {
+		"Id": "TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES",
+		"Guid": "14e69c53-891c-4f38-83e0-02076bcbf186",
+		"Type": "disguise",
+		"Subtype": "classic",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "2b15a76f-ee00-4518-9095-c085c52e6713",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

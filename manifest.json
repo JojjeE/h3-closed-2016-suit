@@ -1,9 +1,190 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Incredible Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"id": "Jojje.Closed2016Suit",
+	"name": "Closed 2016 Signature Suit",
+	"description": "47 has learned how to close his jacket on his signature suit. The 2016 model! Install it for Peacock or replace the signature suits of your choice.",
+	"authors": ["Jojje"],
+	"frameworkVersion": "2.25.1",
+	"version": "1.0.0",
+	"contentFolders": ["1_content/base"],
+	"options": [
+		{
+			"group": "Closed 2016 Suit with Gloves",
+			"name": "Do not install",
+			"type": "select",
+			"tooltip": "Do not install the closed 2016 suit with gloves.",
+			"image": "gloves.jpg"
+		},
+		{
+			"group": "Closed 2016 Suit with Gloves",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the closed 2016 suit with gloves to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"1_content/gloves",
+				"2_patches/replace/gloves/addon"
+			],
+			"blobsFolders": [
+				"blobs/gloves/addon"
+			],
+			"localisedLines": {
+				"00AAD0D3A7B638A0": "UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_NAME",
+				"00FF66901CA01E77": "UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_NAME": "47's Signature Suit with Gloves (Closed jacket)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_DESC": "A bespoke modern suit with white point-collar shirt. Single-colour burgundy tie."
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_NAME": "Costume emblématique de 47 avec gants (Veste fermée)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_DESC": "Un costume sur-mesure moderne porté avec une chemise blanche avec un col en pointe et une cravate bordeaux."
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_NAME": "Klassischer Anzug von 47 mit Handschuhen (Geschlossene Jacke)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_DESC": "Maßgeschneiderter modischer Anzug und weißes Hemd mit Kentkragen. Einfarbige burgunderrote Krawatte."
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_NAME": "Traje característico de 47 con guantes (Chaqueta cerrada)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_DESC": "Un moderno traje a medida con camisa blanca de cuello italiano. Corbata lisa color burdeos."
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_NAME": "Abito classico di 47 con guanti (Giacca chiusa)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_DESC": "Un completo moderno e fatto su misura. Accompagnato da una camicia bianca e da una cravatta in tinta unita color borgogna."
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_NAME": "Классический костюм 47-го с перчатками (Закрытая куртка)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_DESC": "Сшитый на заказ современный костюм. Белая рубашка с острыми концами воротника. Однотонный галстук винного цвета."
+				},
+				"chineseSimplified": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_NAME": "带手套的47专有西装（封闭式外套）",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_DESC": "一套带尖领衬衫的定制现代西装。纯酒红色领带。"
+				},
+				"chineseTraditional": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_NAME": "47的招牌西裝搭手套（封閉式外套）",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_DESC": "訂製的現代西裝配白色尖領襯衫。單色酒紅領帶。"
+				},
+				"japanese": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_NAME": "47愛用スーツと手袋(クローズドジャケット)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_DESC": "特注のスーツとポイントカラーシャツ。そしてワインレッドのネクタイ。"
+				}
+			}
+		},
+		{
+			"group": "Closed 2016 Suit with Gloves",
+			"name": "47's Signature Suit",
+			"type": "select",
+			"tooltip": "Replace 47's Signature Suit, with the closed 2016 suit with gloves.",
+			"contentFolders": [
+				"1_content/gloves",
+				"2_patches/replace/gloves/sigsuitnogloves"
+			],
+			"blobsFolders": [
+				"blobs/gloves/sigsuitnogloves"
+			]
+		},
+		{
+			"group": "Closed 2016 Suit with Gloves",
+			"name": "47's Signature Suit with Gloves",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Replace 47's Signature Suit with Gloves, with the closed 2016 suit with gloves.",
+			"contentFolders": [
+				"1_content/gloves",
+				"2_patches/replace/gloves/sigsuitgloves"
+			],
+			"blobsFolders": [
+				"blobs/gloves/sigsuitgloves"
+			]
+		},
+		{
+			"group": "Closed 2016 Suit",
+			"name": "Do not install",
+			"type": "select",
+			"tooltip": "Do not install the closed 2016 suit.",
+			"image": "nogloves.jpg"
+		},
+		{
+			"group": "Closed 2016 Suit",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the closed 2016 suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"1_content/nogloves",
+				"2_patches/replace/nogloves/addon"
+			],
+			"blobsFolders": [
+				"blobs/nogloves/addon"
+			],
+			"localisedLines": {
+				"00EAA93E49BF7155": "UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_NAME",
+				"006CCBD9F5AC956B": "UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_NAME": "47's Signature Suit (Closed jacket)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_DESC": "A bespoke modern suit with black leather gloves. Single-colour burgundy tie. White point-collar shirt."
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_NAME": "Costume emblématique de 47 (Veste fermée)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_DESC": "Un costume sur-mesure moderne porté avec des gants en cuir noir, une chemise blanche avec un col en pointe et une cravate bordeaux."
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_NAME": "Klassischer Anzug von 47 (Geschlossene Jacke)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_DESC": "Maßgeschneiderter modischer Anzug mit schwarzen Lederhandschuhen. Einfarbige burgunderrote Krawatte. Weißes Hemd mit Kentkragen."
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_NAME": "Traje característico de 47 (Chaqueta cerrada)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_DESC": "Un moderno traje a medida con guantes de cuero negros. Corbata lisa color burdeos. Camisa con cuello italiano."
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_NAME": "Abito classico di 47 (Giacca chiusa)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_DESC": "Un completo moderno e fatto su misura, accompagnato da una camicia bianca e da una cravatta in tinta unita color borgogna."
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_NAME": "Классический костюм 47-го (Закрытая куртка)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_DESC": "Сшитый на заказ современный костюм с черными кожаными перчатками. Однотонный галстук винного цвета. Белая рубашка с острыми концами воротника."
+				},
+				"chineseSimplified": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_NAME": "47专有西装（封闭式外套）",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_DESC": "带黑色皮手套的定制现代西装。纯酒红色领带。白色尖领衬衫。"
+				},
+				"chineseTraditional": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_NAME": "47的招牌西裝（封閉式外套）",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_DESC": "訂製的現代西裝配上黑色皮製手套。單色酒紅領帶。白色尖領襯衫。"
+				},
+				"japanese": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_NAME": "47愛用スーツ(クローズドジャケット)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_DESC": "モダンな特注スーツと黒の革手袋。ワインレッドの無地のネクタイ。白のポイントカラーシャツ。"
+				}
+			}
+		},
+		{
+			"group": "Closed 2016 Suit",
+			"name": "47's Signature Suit",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Replace 47's Signature Suit, with the closed 2016 suit.",
+			"contentFolders": [
+				"1_content/nogloves",
+				"2_patches/replace/nogloves/sigsuitnogloves"
+			],
+			"blobsFolders": [
+				"blobs/nogloves/sigsuitnogloves"
+			]
+		},
+		{
+			"group": "Closed 2016 Suit",
+			"name": "47's Signature Suit with Gloves",
+			"type": "select",
+			"tooltip": "Replace 47's Signature Suit with Gloves, with the closed 2016 suit.",
+			"contentFolders": [
+				"1_content/nogloves",
+				"2_patches/replace/nogloves/sigsuitgloves"
+			],
+			"blobsFolders": [
+				"blobs/nogloves/sigsuitgloves"
+			]
+		}
+	]
 }

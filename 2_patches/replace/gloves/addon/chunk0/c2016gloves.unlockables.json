@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES": {
+		"Id": "TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES",
+		"Guid": "5ebd4c94-7621-48f7-8660-94239b405f69",
+		"Type": "disguise",
+		"Subtype": "classic",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "41b717cb-eded-44eb-a005-f89c8a83d25e",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}
