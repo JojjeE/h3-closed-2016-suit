@@ -1,25 +1,25 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"id": "Jojje.Closed2016Suit",
-	"name": "Closed 2016 Signature Suit",
-	"description": "47 has learned how to close his jacket on his signature suit. The 2016 model! Install it for Peacock or replace the signature suits of your choice.",
+	"name": "Buttoned 2016 Signature Suit",
+	"description": "47 has learned how to button his jackets. The 2016/Blood Money model! Install it for Peacock or replace the signature suits of your choice.",
 	"authors": ["Jojje"],
 	"frameworkVersion": "2.26.1",
 	"version": "1.0.0",
 	"contentFolders": ["1_content/base"],
 	"options": [
 		{
-			"group": "Closed 2016 Suit with Gloves",
+			"group": "Buttoned 2016 Suit with Gloves",
 			"name": "Do not install",
 			"type": "select",
-			"tooltip": "Do not install the closed 2016 suit with gloves.",
+			"tooltip": "Do not install the buttoned 2016 suit with gloves.",
 			"image": "gloves.jpg"
 		},
 		{
-			"group": "Closed 2016 Suit with Gloves",
+			"group": "Buttoned 2016 Suit with Gloves",
 			"name": "Peacock Addon",
 			"type": "select",
-			"tooltip": "Install the closed 2016 suit with gloves to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"tooltip": "Install the buttoned 2016 suit with gloves to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 			"contentFolders": ["1_content/gloves", "2_patches/replace/gloves/addon"],
 			"blobsFolders": ["blobs/gloves/addon"],
 			"localisedLines": {
@@ -66,34 +66,34 @@
 			}
 		},
 		{
-			"group": "Closed 2016 Suit with Gloves",
+			"group": "Buttoned 2016 Suit with Gloves",
 			"name": "47's Signature Suit",
 			"type": "select",
-			"tooltip": "Replace 47's Signature Suit, with the closed 2016 suit with gloves.",
+			"tooltip": "Replace 47's Signature Suit, with the buttoned 2016 suit with gloves.",
 			"contentFolders": ["1_content/gloves", "2_patches/replace/gloves/sigsuitnogloves"],
 			"blobsFolders": ["blobs/gloves/sigsuitnogloves"]
 		},
 		{
-			"group": "Closed 2016 Suit with Gloves",
+			"group": "Buttoned 2016 Suit with Gloves",
 			"name": "47's Signature Suit with Gloves",
 			"type": "select",
 			"enabledByDefault": true,
-			"tooltip": "Replace 47's Signature Suit with Gloves, with the closed 2016 suit with gloves.",
+			"tooltip": "Replace 47's Signature Suit with Gloves, with the buttoned 2016 suit with gloves.",
 			"contentFolders": ["1_content/gloves", "2_patches/replace/gloves/sigsuitgloves"],
 			"blobsFolders": ["blobs/gloves/sigsuitgloves"]
 		},
 		{
-			"group": "Closed 2016 Suit",
+			"group": "Buttoned 2016 Suit",
 			"name": "Do not install",
 			"type": "select",
-			"tooltip": "Do not install the closed 2016 suit.",
+			"tooltip": "Do not install the buttoned 2016 suit.",
 			"image": "nogloves.jpg"
 		},
 		{
-			"group": "Closed 2016 Suit",
+			"group": "Buttoned 2016 Suit",
 			"name": "Peacock Addon",
 			"type": "select",
-			"tooltip": "Install the closed 2016 suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"tooltip": "Install the buttoned 2016 suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
 			"contentFolders": ["1_content/nogloves", "2_patches/replace/nogloves/addon"],
 			"blobsFolders": ["blobs/nogloves/addon"],
 			"localisedLines": {
@@ -140,21 +140,87 @@
 			}
 		},
 		{
-			"group": "Closed 2016 Suit",
+			"group": "Buttoned 2016 Suit",
 			"name": "47's Signature Suit",
 			"type": "select",
 			"enabledByDefault": true,
-			"tooltip": "Replace 47's Signature Suit, with the closed 2016 suit.",
+			"tooltip": "Replace 47's Signature Suit, with the buttoned 2016 suit.",
 			"contentFolders": ["1_content/nogloves", "2_patches/replace/nogloves/sigsuitnogloves"],
 			"blobsFolders": ["blobs/nogloves/sigsuitnogloves"]
 		},
 		{
-			"group": "Closed 2016 Suit",
+			"group": "Buttoned 2016 Suit",
 			"name": "47's Signature Suit with Gloves",
 			"type": "select",
-			"tooltip": "Replace 47's Signature Suit with Gloves, with the closed 2016 suit.",
+			"tooltip": "Replace 47's Signature Suit with Gloves, with the buttoned 2016 suit.",
 			"contentFolders": ["1_content/nogloves", "2_patches/replace/nogloves/sigsuitgloves"],
 			"blobsFolders": ["blobs/nogloves/sigsuitgloves"]
+		},
+		{
+			"group": "Buttoned Blood Money Suit",
+			"name": "Do not install",
+			"type": "select",
+			"tooltip": "Do not install the buttoned Blood Money suit.",
+			"image": "bloodmoney.jpg"
+		},
+		{
+			"group": "Buttoned Blood Money Suit",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the buttoned Blood Money suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": ["1_content/bloodmoney", "2_patches/replace/bloodmoney/addon"],
+			"blobsFolders": ["blobs/bloodmoney/addon"],
+			"localisedLines": {
+				"00DC110A5B62E68F": "UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_NAME",
+				"00881A00AD848FDC": "UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_NAME": "Blood Money Suit with Gloves (Closed jacket)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_DESC": "A black two-button suit with black leather gloves. Pin-striped shirt and tie."
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_NAME": "Costume \"Blood Money\" avec gants (Veste fermée)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_DESC": "Un costume noir porté avec des gants en cuir noir, et une chemise et cravate à rayures Oxford."
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_NAME": "Blood-Money-Anzug mit Handschuhen (Geschlossene Jacke)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_DESC": "Schwarzer Zweiknopf-Anzug mit schwarzen Lederhandschuhen. Nadelstreifenhemd und Krawatte."
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_NAME": "Traje Blood Money con guantes (Chaqueta cerrada)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_DESC": "Un traje negro de dos botones con guantes de cuero negros. Camisa de raya diplomática y corbata."
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_NAME": "Abito Blood Money con guanti (Giacca chiusa)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_DESC": "Un abito nero a due bottoni, completo di guanti di pelle neri e accompagnato da giacca e cravatta striati."
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_NAME": "Костюм Blood Money с перчатками (Закрытая куртка)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_DESC": "Черный костюм на двух пуговицах с черными кожаными перчатками. Рубашка в полоску и галстук."
+				},
+				"chineseSimplified": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_NAME": "带手套血钱西装（封闭式外套）",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_DESC": "带黑色皮手套的黑色双扣西装。条纹衬衫与领带。"
+				},
+				"chineseTraditional": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_NAME": "黑錢交易西裝搭手套（封閉式外套）",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_DESC": "黑色雙鈕釦西裝配上黑色皮製手套。細條紋襯衫配領帶。"
+				},
+				"japanese": {
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_NAME": "ブラッドマネースーツと手袋(クローズドジャケット)",
+					"UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_DESC": "黒の2つボタンスーツと黒の革手袋。ピンストライプシャツにネクタイ。"
+				}
+			}
+		},
+		{
+			"group": "Buttoned Blood Money Suit",
+			"name": "Blood Money Suit",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Replace the Blood Money suit, with the buttoned Blood Money suit.",
+			"contentFolders": ["1_content/bloodmoney", "2_patches/replace/bloodmoney/bloodmoney"],
+			"blobsFolders": ["blobs/bloodmoney/bloodmoney"]
 		}
 	],
 	"updateCheck": "https://github.com/JojjeE/h3-closed-2016-suit/releases/latest/download/updates.json"

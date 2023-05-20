@@ -1,0 +1,14 @@
+{
+	"0033e40b-17d3-4a42-8dd9-9608ce853466": {
+		"ID_": "0033e40b-17d3-4a42-8dd9-9608ce853466",
+		"CommonName": "CHAR_Global_Hero_Closed_Blood_Money_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_outfits_bloodmoney_closed.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT"
+	}
+}

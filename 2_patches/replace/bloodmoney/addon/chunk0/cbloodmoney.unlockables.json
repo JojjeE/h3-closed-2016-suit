@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT": {
+		"Id": "TOKEN_OUTFIT_HERO_CLOSED_BLOOD_MONEY_SUIT",
+		"Guid": "557397ba-4411-483c-a12d-a4a8ac3bbdfc",
+		"Type": "disguise",
+		"Subtype": "classic",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "0033e40b-17d3-4a42-8dd9-9608ce853466",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}
