@@ -1,179 +1,171 @@
 {
-    "tempHash": "00097AA87B144150",
-    "tbluHash": "00E738E7CF7A35E1",
-    "patch": [
-        {
-            "AddEntity": [
-                "feed3cdb01fb099a",
-                {
-                    "parent": "ba8ea9278df2079",
-                    "name": "CHAR_Global_Hero_Closed_2016_Suit_Gloves_M",
-                    "factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
-                    "blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
-                    "properties": {
-                        "m_eActorType": {
-                            "type": "EActorType",
-                            "value": "eAT_Hitman"
-                        },
-                        "m_eSoundFootwearType": {
-                            "type": "EHM5SoundFootwearType",
-                            "value": "EFWT_LEATHER"
-                        },
-                        "m_sId": {
-                            "type": "ZGuid",
-                            "value": "41b717cb-eded-44eb-a005-f89c8a83d25e"
-                        },
-                        "m_bCanCallForHelp": {
-                            "type": "bool",
-                            "value": true
-                        },
-                        "m_sCommonName": {
-                            "type": "ZString",
-                            "value": "CHAR_Global_Hero_Closed_2016_Suit_Gloves_M"
-                        },
-                        "m_sTitle": {
-                            "type": "ZString",
-                            "value": "Closed 2016 Signature Suit And Gloves"
-                        },
-                        "m_eOutfitAICategory": {
-                            "type": "EOutfitAICategory",
-                            "value": "OAC_47Suit"
-                        },
-                        "m_rNameTextResource": {
-                            "type": "ZRuntimeResourceID",
-                            "value": {
-                                "resource": "00AAD0D3A7B638A0",
-                                "flag": "5F"
-                            }
-                        },
-                        "m_rDescriptionTextResource": {
-                            "type": "ZRuntimeResourceID",
-                            "value": {
-                                "resource": "00FF66901CA01E77",
-                                "flag": "5F"
-                            }
-                        },
-                        "m_bHeroDisguiseAvailable": {
-                            "type": "bool",
-                            "value": true
-                        },
-                        "m_bIsHitmanSuit": {
-                            "type": "bool",
-                            "value": true
-                        },
-                        "m_aCharSets": {
-                            "type": "TArray<SEntityTemplateReference>",
-                            "value": [
-                                "feed208777827481"
-                            ],
-                            "postInit": true
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed4cf430c421d8",
-                {
-                    "parent": "feed3cdb01fb099a",
-                    "name": "Keyword_FOLEY_VR_OUTFIT_LEATHERGLOVES",
-                    "factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_leathergloves.entitytemplate].pc_entitytype",
-                    "blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_leathergloves.entitytemplate].pc_entityblueprint",
-                    "properties": {
-                        "m_rHolder": {
-                            "type": "SEntityTemplateReference",
-                            "value": "feed3cdb01fb099a"
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed208777827481",
-                {
-                    "parent": "feed3cdb01fb099a",
-                    "name": "CHARSET_Agent47_Closed_2016_Suit_Gloves",
-                    "factory": "004B73C769CD3778",
-                    "blueprint": "00BFB859556BD623"
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed16766205931e",
-                {
-                    "parent": "feed3cdb01fb099a",
-                    "name": "Prof_Agent47_Closed_2016_Suit_Gloves",
-                    "factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
-                    "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
-                    "properties": {
-                        "m_aHolders": {
-                            "type": "TArray<SEntityTemplateReference>",
-                            "value": [
-                                "feed3cdb01fb099a"
-                            ]
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed3471606111b9",
-                {
-                    "parent": "feed3cdb01fb099a",
-                    "name": "Keyword_Prof_Class_Default",
-                    "factory": "007A51A2AFEC0D1A",
-                    "blueprint": "00B0282A41C1CF2E",
-                    "properties": {
-                        "m_aHolders": {
-                            "type": "TArray<SEntityTemplateReference>",
-                            "value": [
-                                "feed3cdb01fb099a"
-                            ]
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed8124c772df1d",
-                {
-                    "parent": "feed3cdb01fb099a",
-                    "name": "KeywordEntity_FOLEY_SUIT47",
-                    "factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
-                    "blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
-                    "properties": {
-                        "m_rHolder": {
-                            "type": "SEntityTemplateReference",
-                            "value": "feed3cdb01fb099a"
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed7c0a17cfc6cf",
-                {
-                    "parent": "feed3cdb01fb099a",
-                    "name": "Prof_Hero_SignatureSuit",
-                    "factory": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entitytype",
-                    "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint",
-                    "properties": {
-                        "m_aHolders": {
-                            "type": "TArray<SEntityTemplateReference>",
-                            "value": [
-                                "feed3cdb01fb099a"
-                            ]
-                        }
-                    }
-                }
-            ]
-        }
-    ],
-    "patchVersion": 6
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"AddEntity": [
+				"feed3cdb01fb099a",
+				{
+					"parent": "ba8ea9278df2079",
+					"name": "CHAR_Global_Hero_Closed_2016_Suit_Gloves_M",
+					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+					"properties": {
+						"m_eActorType": {
+							"type": "EActorType",
+							"value": "eAT_Hitman"
+						},
+						"m_eSoundFootwearType": {
+							"type": "EHM5SoundFootwearType",
+							"value": "EFWT_LEATHER"
+						},
+						"m_sId": {
+							"type": "ZGuid",
+							"value": "41b717cb-eded-44eb-a005-f89c8a83d25e"
+						},
+						"m_bCanCallForHelp": {
+							"type": "bool",
+							"value": true
+						},
+						"m_sCommonName": {
+							"type": "ZString",
+							"value": "CHAR_Global_Hero_Closed_2016_Suit_Gloves_M"
+						},
+						"m_sTitle": {
+							"type": "ZString",
+							"value": "Closed 2016 Signature Suit And Gloves"
+						},
+						"m_eOutfitAICategory": {
+							"type": "EOutfitAICategory",
+							"value": "OAC_47Suit"
+						},
+						"m_rNameTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00AAD0D3A7B638A0",
+								"flag": "5F"
+							}
+						},
+						"m_rDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00FF66901CA01E77",
+								"flag": "5F"
+							}
+						},
+						"m_bHeroDisguiseAvailable": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bIsHitmanSuit": {
+							"type": "bool",
+							"value": true
+						},
+						"m_aCharSets": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed208777827481"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed4cf430c421d8",
+				{
+					"parent": "feed3cdb01fb099a",
+					"name": "Keyword_FOLEY_VR_OUTFIT_LEATHERGLOVES",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_leathergloves.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_leathergloves.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rHolder": {
+							"type": "SEntityTemplateReference",
+							"value": "feed3cdb01fb099a"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed208777827481",
+				{
+					"parent": "feed3cdb01fb099a",
+					"name": "CHARSET_Agent47_Closed_2016_Suit_Gloves",
+					"factory": "004B73C769CD3778",
+					"blueprint": "00BFB859556BD623"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed16766205931e",
+				{
+					"parent": "feed3cdb01fb099a",
+					"name": "Prof_Agent47_Closed_2016_Suit_Gloves",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed3cdb01fb099a"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed3471606111b9",
+				{
+					"parent": "feed3cdb01fb099a",
+					"name": "Keyword_Prof_Class_Default",
+					"factory": "007A51A2AFEC0D1A",
+					"blueprint": "00B0282A41C1CF2E",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed3cdb01fb099a"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed8124c772df1d",
+				{
+					"parent": "feed3cdb01fb099a",
+					"name": "KeywordEntity_FOLEY_SUIT47",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rHolder": {
+							"type": "SEntityTemplateReference",
+							"value": "feed3cdb01fb099a"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed7c0a17cfc6cf",
+				{
+					"parent": "feed3cdb01fb099a",
+					"name": "Prof_Hero_SignatureSuit",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed3cdb01fb099a"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
 }

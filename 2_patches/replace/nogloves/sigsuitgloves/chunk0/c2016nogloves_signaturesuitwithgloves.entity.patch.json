@@ -1,1 +1,9 @@
-{"tempHash":"00097AA87B144150","tbluHash":"00E738E7CF7A35E1","patch":[{"SubEntityOperation":["eff8b1fdc04f68b3",{"SetFactory":"00E14CF995B6645F"}]},{"SubEntityOperation":["eff8b1fdc04f68b3",{"SetBlueprint":"003FEDDA960A035D"}]}],"patchVersion":6}
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{ "SubEntityOperation": ["eff8b1fdc04f68b3", { "SetFactory": "00E14CF995B6645F" }] },
+		{ "SubEntityOperation": ["eff8b1fdc04f68b3", { "SetBlueprint": "003FEDDA960A035D" }] }
+	],
+	"patchVersion": 6
+}

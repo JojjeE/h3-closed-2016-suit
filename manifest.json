@@ -4,7 +4,7 @@
 	"name": "Closed 2016 Signature Suit",
 	"description": "47 has learned how to close his jacket on his signature suit. The 2016 model! Install it for Peacock or replace the signature suits of your choice.",
 	"authors": ["Jojje"],
-	"frameworkVersion": "2.25.1",
+	"frameworkVersion": "2.26.1",
 	"version": "1.0.0",
 	"contentFolders": ["1_content/base"],
 	"options": [
@@ -20,13 +20,8 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install the closed 2016 suit with gloves to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": [
-				"1_content/gloves",
-				"2_patches/replace/gloves/addon"
-			],
-			"blobsFolders": [
-				"blobs/gloves/addon"
-			],
+			"contentFolders": ["1_content/gloves", "2_patches/replace/gloves/addon"],
+			"blobsFolders": ["blobs/gloves/addon"],
 			"localisedLines": {
 				"00AAD0D3A7B638A0": "UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_NAME",
 				"00FF66901CA01E77": "UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_GLOVES_DESC"
@@ -75,13 +70,8 @@
 			"name": "47's Signature Suit",
 			"type": "select",
 			"tooltip": "Replace 47's Signature Suit, with the closed 2016 suit with gloves.",
-			"contentFolders": [
-				"1_content/gloves",
-				"2_patches/replace/gloves/sigsuitnogloves"
-			],
-			"blobsFolders": [
-				"blobs/gloves/sigsuitnogloves"
-			]
+			"contentFolders": ["1_content/gloves", "2_patches/replace/gloves/sigsuitnogloves"],
+			"blobsFolders": ["blobs/gloves/sigsuitnogloves"]
 		},
 		{
 			"group": "Closed 2016 Suit with Gloves",
@@ -89,13 +79,8 @@
 			"type": "select",
 			"enabledByDefault": true,
 			"tooltip": "Replace 47's Signature Suit with Gloves, with the closed 2016 suit with gloves.",
-			"contentFolders": [
-				"1_content/gloves",
-				"2_patches/replace/gloves/sigsuitgloves"
-			],
-			"blobsFolders": [
-				"blobs/gloves/sigsuitgloves"
-			]
+			"contentFolders": ["1_content/gloves", "2_patches/replace/gloves/sigsuitgloves"],
+			"blobsFolders": ["blobs/gloves/sigsuitgloves"]
 		},
 		{
 			"group": "Closed 2016 Suit",
@@ -109,13 +94,8 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install the closed 2016 suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": [
-				"1_content/nogloves",
-				"2_patches/replace/nogloves/addon"
-			],
-			"blobsFolders": [
-				"blobs/nogloves/addon"
-			],
+			"contentFolders": ["1_content/nogloves", "2_patches/replace/nogloves/addon"],
+			"blobsFolders": ["blobs/nogloves/addon"],
 			"localisedLines": {
 				"00EAA93E49BF7155": "UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_NAME",
 				"006CCBD9F5AC956B": "UI_TOKEN_OUTFIT_HERO_CLOSED_2016_SUIT_NOGLOVES_DESC"
@@ -165,26 +145,17 @@
 			"type": "select",
 			"enabledByDefault": true,
 			"tooltip": "Replace 47's Signature Suit, with the closed 2016 suit.",
-			"contentFolders": [
-				"1_content/nogloves",
-				"2_patches/replace/nogloves/sigsuitnogloves"
-			],
-			"blobsFolders": [
-				"blobs/nogloves/sigsuitnogloves"
-			]
+			"contentFolders": ["1_content/nogloves", "2_patches/replace/nogloves/sigsuitnogloves"],
+			"blobsFolders": ["blobs/nogloves/sigsuitnogloves"]
 		},
 		{
 			"group": "Closed 2016 Suit",
 			"name": "47's Signature Suit with Gloves",
 			"type": "select",
 			"tooltip": "Replace 47's Signature Suit with Gloves, with the closed 2016 suit.",
-			"contentFolders": [
-				"1_content/nogloves",
-				"2_patches/replace/nogloves/sigsuitgloves"
-			],
-			"blobsFolders": [
-				"blobs/nogloves/sigsuitgloves"
-			]
+			"contentFolders": ["1_content/nogloves", "2_patches/replace/nogloves/sigsuitgloves"],
+			"blobsFolders": ["blobs/nogloves/sigsuitgloves"]
 		}
-	]
+	],
+	"updateCheck": "https://github.com/JojjeE/h3-closed-2016-suit/releases/latest/download/updates.json"
 }
